@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.6.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="navbar-wrapper">
+            <div class="menu-button">
+                <div class="menu-bar"></div>
+                <div class="menu-bar"></div>
+            </div>
+            <div class="mid-nav-holder">
+                <a href="/prints" class="main-nav-link">PRINTS</a>
+                <a href="/" class="brand-logo">
+
+                </a>
+                <a href="/artists" class="main-nav-link">ARTISTS</a>
+            </div>
+            <div class="button-holder">
+                <a href="#">
+                    <button>CART</button>
+                </a>
+            </div>
+        </div>
+        <div class="banner">
+            <div class="circle-badge circle-ani">
+                <img src="images/circle-badge.svg" alt="">
+            </div>
+        </div>
+
+        <div class="section-first">
+            <h1>
+                Unique studio-quality art prints. Exclusive to FeatureCo. By global independent artists.
+            </h1>
+            <div class="button-holder">
+                <a href="#">
+                    <button>view all prints <img src="images/arrow.svg" alt=""></button>
+                </a>
+            </div>
+        </div>
+
+        <div class="section-second">
+            <div class="side-bar">
+                <h1>
+                    Latest Prinnts
+                </h1>
+            </div>
+            <div class="card-container">
+                <div class="card-wrapper">
+                    <div class="card-area">
+                        <a href="#">
+                            <div class="card">
+                                <img src="images/ana-print.webp" alt="">
+                                <img src="images/ana-close.webp" alt="">
+                            </div>
+                            <div class="card-info">
+                                <h2>Flower Power</h2>
+                                <h4>ana duje</h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card-area">
+                        <a href="#">
+                            <div class="card">
+                                <img src="images/david-print-1.jpg" alt="">
+                                <img src="images/print-3-min.jpg" alt="">
+                            </div>
+                            <div class="card-info">
+                                <h2>Shout for joy</h2>
+                                <h4>david oku</h4>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="card-wrapper">
+                    <div class="card-area">
+                        <a href="#">
+                            <div class="card">
+                                <img src="images/mateusz-print.webp" alt="">
+                                <img src="images/mateusz-print-close.webp" alt="">
+                            </div>
+                            <div class="card-info">
+                                <h2>Waterdrop</h2>
+                                <h4>mateusz napieralski</h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card-area">
+                        <a href="#">
+                            <div class="card">
+                                <img src="images/seb-print.webp" alt="">
+                                <img src="images/print-close-2.webp" alt="">
+                            </div>
+                            <div class="card-info">
+                                <h2>In the Garden</h2>
+                                <h4>sebastian abbound</h4>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="full-container">
+        <div class="section-third">
+            <div class="text-animation">
+                <div class="text-wrapper">
+                    <h1>Limited run</h1>
+                    <img src="images/logo-dark.svg" alt="">
+
+                    <h1>Independent artists</h1>
+                    <img src="images/logo-dark.svg" alt="">
+
+                    <h1>Studio quality</h1>
+                    <img src="images/logo-dark.svg" alt="">
+
+                    <h1>Limited run</h1>
+                    <img src="images/logo-dark.svg" alt="">
+
+                    <h1>Independent artists</h1>
+                    <img src="images/logo-dark.svg" alt="">
+
+                    <h1>Studio quality</h1>
+                    <img src="images/logo-dark.svg" alt="">
+
+                    <h1>Limited run</h1>
+                    <img src="images/logo-dark.svg" alt="">
+
+                    <h1>Independent artists</h1>
+                    <img src="images/logo-dark.svg" alt="">
+
+                    <h1>Studio quality</h1>
+                    <img src="images/logo-dark.svg" alt="">
+
+                    <h1>Limited run</h1>
+                    <img src="images/logo-dark.svg" alt="">
+
+                    <h1>Independent artists</h1>
+                    <img src="images/logo-dark.svg" alt="">
+
+                    <h1>Studio quality</h1>
+                    <img src="images/logo-dark.svg" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="section-first fourth">
+            <h1 style="color: #fff;">
+                Shining the spotlight on each artist, as well as each piece of artwork.
+            </h1>
+            <div class="button-holder">
+                <a href="#">
+                    <button>view all prints <img src="images/arrow.svg" alt=""></button>
+                </a>
+                <div class="button-area">
+                    <div id="left-btn" class="btn" onclick="prevSlide()">
+                        <i class="ri-arrow-left-line"></i>
+                    </div>
+                    <div id="right-btn" class="btn" onclick="nextSlide()">
+                        <i class="ri-arrow-right-line"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="slide-container">
+            <div class="card-container slider-card" id="sliderContainer">
+                <div class="card-wrapper slider-wrapper" id="sliderWrapper">
+                    <div class="card-area slider">
+                        <a href="#">
+                            <div class="card">
+                                <img src="images/mateuz.webp" alt="">
+                                <img src="images/mateusz-hover.webp" alt="">
+                            </div>
+                            <div class="card-info">
+                                <h2>
+                                    —
+                                    Mateusz Napieralski
+                                </h2>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card-area slider">
+                        <a href="#">
+                            <div class="card">
+                                <img src="images/tania-hero.webp" alt="">
+                                <img src="images/artist-hover.webp" alt="">
+                            </div>
+                            <div class="card-info">
+                                <h2>
+                                    —
+                                    Tania Yakunova
+                                </h2>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card-area slider">
+                        <a href="#">
+                            <div class="card">
+                                <img src="images/will.webp" alt="">
+                                <img src="images/illwookie-hover.webp" alt="">
+                            </div>
+                            <div class="card-info">
+                                <h2>
+                                    —
+                                    illwookie
+                                </h2>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card-area slider">
+                        <a href="#">
+                            <div class="card">
+                                <img src="images/david.webp" alt="">
+                                <img src="images/david-1.webp" alt="">
+                            </div>
+                            <div class="card-info">
+                                <h2>
+                                    —
+                                    David Oku
+                                </h2>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card-area slider">
+                        <a href="#">
+                            <div class="card">
+                                <img src="images/ana.webp" alt="">
+                                <img src="images/ana-hover.webp" alt="">
+                            </div>
+                            <div class="card-info">
+                                <h2>
+                                    —
+                                    Ana Duje
+                                </h2>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card-area slider">
+                        <a href="#">
+                            <div class="card">
+                                <img src="images/artist-photo.jpg" alt="">
+                                <img src="images/artist-photo-1.jpg" alt="">
+                            </div>
+                            <div class="card-info">
+                                <h2>
+                                    —
+                                    Yay Abe
+                                </h2>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card-area slider">
+                        <a href="#">
+                            <div class="card">
+                                <img src="images/seb.webp" alt="">
+                                <img src="images/seb-hover.webp" alt="">
+                            </div>
+                            <div class="card-info">
+                                <h2>
+                                    —
+                                    Sebastian Abboud
+                                </h2>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="fifth-sec">
+            <div class="left">
+                <img src="images/up-finger.webp" alt="">
+                <h1>We Feature the artist</h1>
+                <p>Get to know the artist behind your new exclusive artwork. </p>
+            </div>
+            <div class="middle-line"></div>
+            <div class="right">
+                <img src="images/to-finger.webp" alt="">
+                <h1>You feature the artwork</h1>
+                <p>Always limited edition, always high quality.  </p>
+            </div>
+        </div>
+
+        <div class="sixth-sec">
+            <div class="left">
+                <img src="images/yellow-star.svg" alt="">
+            </div>
+            <div class="middle">
+                <h1>Join the list</h1>
+                <p>To be first to receive exclusive news and discounts</p>
+                <form>
+                    <input type="email" name="email" id="email" placeholder="Enter your email">
+                    <button>Sign Up</button>
+                </form>
+            </div>
+            <div class="right">
+                <img src="images/white-star.svg" alt="">
+            </div>
+        </div>
+
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.3/gsap.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.3/ScrollTrigger.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
